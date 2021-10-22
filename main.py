@@ -10,6 +10,6 @@ upbit = pyupbit.Upbit(access, secret)
 #잔고 조회
 #get_balance 메서드는 입력받은 티커의 보유 수량 정보를 조회합니다.
 
-print('리플 : ', upbit.get_balance("KRW-XRP"))     # KRW-XRP 조회
-print('리플 : ', upbit.get_balance("KRW-BTC"))     # KRW-XRP 조회
-print('보유 원화 : ', upbit.get_balance("KRW"))         # 보유 현금 조회
+print('XRP : ', upbit.get_balance("KRW-XRP"))     # KRW-XRP 조회
+print('BTC : ', upbit.get_balance("KRW-BTC"))     # KRW-XRP 조회
+print('My WON : ', upbit.get_balance("KRW"))         # 보유 현금 조회
